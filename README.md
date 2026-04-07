@@ -1,2 +1,3 @@
 # ChapAeroRocketAssoc.github.io
-Home page fo the Chapaparral Aerospace and Rockety Association
+
+Home page of the Chaparral Aerospace and Rocketry Association
