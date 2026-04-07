@@ -41,9 +41,7 @@ jobs:
           # Build index page listing all .md files
           echo "<!DOCTYPE html><html lang='en'><head>" > _site/index.html
           echo "<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>" >> _site/index.html
-          echo "<title>My Notes</title><link rel='stylesheet' href='style.css'></head><body>" >> _site/index.html
-          echo "<header><h1>Chaparrel Aerospace and Rocketry Association</h1><p class='subtitle'>Auto-generated from Markdown</p></header>" >> _site/index.html
-          echo "<main><ul class='page-list'>" >> _site/index.html
+          echo "<title>Chaparral Aerospace and Rocketry Association</title><link rel='stylesheet' href='style.css'></head><body>" >> _site/index.html
 
           for f in $(find . -name '*.md' ! -path './.github/*' ! -name 'README.md' | sort); do
             filename=$(basename "$f" .md)
